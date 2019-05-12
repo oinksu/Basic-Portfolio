@@ -19,6 +19,7 @@ header{
 main{
     margin:30px 0px 60px 0px;
     background: #dddddd;
+    height: 3000px;
 }
 
 footer{
@@ -85,7 +86,7 @@ nav a{
     margin: 0px 0px 0px 0px;
     padding: 20px 20px 0px 0px;  
     line-height: 45px;
-    height: 450px;
+    height: 30%;
     background-color: #ffffff;
     width: 940px;
     margin: 0 auto;
@@ -109,7 +110,7 @@ img{
     float: left;
     height: 200px;
     width: auto;
-    margin: 0px 0px 0px 0px;
+    margin: 20px 20px 0px 20px;
 }
 
 
@@ -140,23 +141,82 @@ hr{
     padding: 0px 0px 0px 0px;
 }
 
+
+
+.copyright{
+    margin: 50px 0% 0px 0px; 
+    height: 20px;
+   
+    text-align: center;
+    width: 33%;
+    padding: 0px 33% 0px 0px;
+    float: right;
+    
+}
+
 .divider{
     content: '';
     margin: 0px 0px 0px 0px;
-    height: 5px;
+    height: 10px;
     width: 100%;
-    padding: 3;
+    padding: 10px;
     background-color:#4aaaa5;
     display: table;
     clear: both;
 }
 
-.copyright{
-    margin: 0px 33% 4px 0px; 
-    height: 5px;
-    background-color: brown;
-    text-align: center;
-    width: 33%;
+.first{
+    float: left;
+margin: 0% 55% 0% 0%;
+padding: 0% 55% 0% 0%; 
+}   
+
+.first ul{
+    list-style: none;
+}
+
+.second{
     float: right;
+    padding: 0% 55% 0% 0%;
+    margin: -54.60% -150px 0 0%;
+    align-content: flex-end;
+}
+
+.first::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.second::after{
     
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.ramon{
+    padding: 20px 0px 20px 0px;
+}
+
+.ramon1{
+    padding: 0px 0px 20px 0px;
+}
+.ramon2{
+    padding: 0px 0px 0px 0px;
+}
+
+
+.ramon3{
+    float: right;
+    padding: 20px 0px 20px 0px;
+}
+.ramon4{
+    float: right;
+    padding: 0px 0px 0px 0px;
+}
+
+button{
+    border-style: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
