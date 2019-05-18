@@ -1,61 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Felipe Amunategui Bio</title>
-    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Felipe Amunategui</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="container-header">
-            <h1 class="name">Felipe Amunategui</h1>
 
-            <nav>   
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div> 
-    </header>
-
-    <main>
-
-        <div class="container-body">
-                <h1 class="about-me">Contact</h1>
-                
-                
-                    <p>
-                        <hr width="250"/>
-                        
-                        <div class="first">
-                            <ul>
-                                <li>Name<input type="text" id="fname" name="firstname" placeholder="Your name.."></li>
-                                <li>Email<input type="text" id="email" name="email" placeholder="Your email.."></li>
-                                <li>Message<input type="text" id="fname" name="firstname" placeholder="Message..."></li>
-                                <button><h3>Submit</h3></button>
-                            </ul>
-                        </div>   
-                           
-                    </p>
-
-                
-        </div> 
-    </main>
-    <div class="divider">
-        
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Felipe Amunategui</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-        
-    <footer>
-        <div class="container-footer">
-               
-                </div>
-            <h6 class="copyright">copyright</h6>
-        
-    </footer>    
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Felipe Amunategui &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>
